@@ -1,0 +1,65 @@
+<=====================Pages======================>
+
+1. Home           => Intro of web app
+2. Data Info      => Info about data & Link to dataset 
+3. Prediciton     => Predicting values
+5. Visualize data => Graphs and plots
+6. Scope    => How our model is going to help us in future
+7. Model info     => Info about model
+8. About me       => personal info
+
+
+
+<=================Home Page=======================>
+
+1. Image     => Image will be related to dataset and model
+2. Web Intro => Brief intro web app
+
+
+
+<=================Data Info Page===================>
+
+1. Image        => Image related to our data
+2. Video        => Video explation
+3. Describition => Describe about data
+
+
+
+<=================Prediciton Page===================>
+
+1. Title            => Prediciton 
+2. Input            => Taking feature input from the user
+3. Prediciton Value => Show predicted values from the model
+
+
+
+<=================Visualize Page===================>
+
+1. Scatterplot           => Scatterplot for each features
+2. Visulisation Selector => Different types for plots and graph for each feature
+
+
+
+<=================Scope Page===================>
+
+1. Describtion => How our project is going contribute to our society.
+
+
+
+<=================Model info Page===================>
+
+1. Image              => Image related to our model
+2. Title              => Model name
+3. Desc               => Describition about our model
+4. Parameter          => Hyperparameter tunning
+5. Evaluation Metrics => The parameters of model evaluation
+
+
+
+<=================About me Page===================>
+
+1. Animation => Ballons animation
+2. Image     => Profile Image
+3. Desc      => Brief describition about yourself
+4. Linkdin   => Linkdlin Profile
+5. GitHub    => GitHub Profile

@@ -1,5 +1,5 @@
 import streamlit as st
-import home, data, prediction, visualization, scope, model, about
+from pages import home, data, prediction, visualization, scope, model, about
 
 
 pages = {

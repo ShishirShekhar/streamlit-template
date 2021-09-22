@@ -4,7 +4,7 @@
 2. Data Info      => Info about data & Link to dataset 
 3. Prediciton     => Predicting values
 5. Visualize data => Graphs and plots
-6. Scope    => How our model is going to help us in future
+6. Scope          => How our model is going to help us in future
 7. Model info     => Info about model
 8. About me       => personal info
 

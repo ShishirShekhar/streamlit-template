@@ -4,12 +4,12 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from sklearn.svm import SVC
+from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 # Import our modules
 from preprocess import load_data, load_model
 
-def app():
+def app(model):
     """This funciton runs the prediction page"""
 
     # Set the title of the page
@@ -51,7 +51,7 @@ def app():
     feat_list = pd.DataFrame([[f1, f2, f3, f4]])
 
     # Get model and score
-    model, score = load_model(SVC)
+    model, score = load_model(model)
 
     # Create a button to get the prediction values on click
     if (st.button("Predict")):
@@ -62,5 +62,7 @@ def app():
         st.success("Prediction Sucessful!!!")
         st.warning(f"Predicted specie {pred_value}")
         st.info(f"Accuracy is {round(score * 100, 2)}")
+        # st.info(f"Mean Absolute error is {mean_absolute_error(y, pred)}")
+        # st.info(f"Mean Squared error is {mean_squared_error(y, pred)}")
 
     

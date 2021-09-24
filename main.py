@@ -2,6 +2,7 @@
 
 # import necessary modules
 import streamlit as st
+from sklearn.svm import SVC
 
 # import pages
 from pages import home, data, prediction, visualization, scope, model, about
@@ -23,4 +24,7 @@ st.sidebar.title("Navigation")
 page = st.sidebar.radio("Pages", list(pages.keys()))
 
 # Call app funciton for the selected page
-pages[page].app()
+if page == "Prediction":
+    prediction.app(SVC)
+else:
+    pages[page].app()
